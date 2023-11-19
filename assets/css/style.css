@@ -69,7 +69,7 @@
 
 
 :root{
-  --theme-color: #fe5924;
+  --theme-color: #29adf5;
   --theme-color-two: #26ba5e;
   --theme-color-three: #ce183d;
   --secondary-color: #1b1e31;
@@ -112,7 +112,7 @@ body {
 
 .auto-container{
   position:static;
-  max-width:1200px;
+  max-width:1500px;
   padding:0px 15px;
   margin:0 auto;
 }
@@ -380,17 +380,19 @@ img {
   line-height: 28px;
   font-weight: 600;
   font-family: var(--title-font);
-  color: #fff;
+  color: #000;
   text-align: center;
   padding: 11px 28px;
   border-radius: 5px;
   z-index: 1;
   transition: all 500ms ease;
+  margin-top: 25px;
+  background-color: #FFF;
 }
 
-.theme-btn:hover{
+/* .theme-btn:hover{
   color: #fff;
-}
+} */
 
 .theme-btn.btn-one{
   background: var(--theme-color);
@@ -508,7 +510,7 @@ img {
 }
 
 .sec-pad{
-  padding: 113px 0px 120px 0px;
+  padding: 80px 0px;
 }
 
 .mr-0{
@@ -560,6 +562,7 @@ img {
   font-weight: 600;
   margin-bottom: 12px;
   text-transform: capitalize;
+  margin-top: 10px;
 }
 
 .sec-title h2{
@@ -915,11 +918,12 @@ img {
   position: relative;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .main-header .logo-box{
   position: relative;
-  padding: 26px 0px;
+  padding: 15px 0px;
   margin-right: 80px;
 }
 
@@ -1815,8 +1819,8 @@ div#mCSB_1_container{
 .banner-carousel .content-box h2{
   position: relative;
   display: block;
-  font-size: 72px;
-  line-height: 82px;
+  font-size: 60px;
+  line-height: 70px;
   font-weight: 700;
   color: #fff;
   margin-bottom: 15px;
@@ -2048,7 +2052,7 @@ div#mCSB_1_container{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 32px 50px 32px 125px;
+  padding: 30px;
 }
 
 .banner-section .highlights-box .single-item .count-text{
@@ -2270,14 +2274,14 @@ div#mCSB_1_container{
   display: block;
   border-radius: 5px;
   background: #24283c;
-  padding: 33px 100px 33px 40px;
+  padding: 30px;
 }
 
 .trading-block-one .inner-box .text:before{
   position: absolute;
   content: '';
   background: #35394f;
-  width: 1px;
+  width: 0px;
   height: calc(100% - 80px);
   top: 40px;
   right: 70px;
@@ -2315,6 +2319,7 @@ div#mCSB_1_container{
   line-height: 32px;
   font-weight: 600;
   margin-bottom: 16px;
+  color: #FFF;
 }
 
 .trading-block-one .inner-box h3 a{
@@ -3150,7 +3155,7 @@ div#mCSB_1_container{
   display: block;
   width: 292px;
   height: 292px;
-  border-radius: 50%;
+  border-radius: 20px;
   background: #f4f4f4;
   border: 1px solid #e9e9e9;
   overflow: hidden;
@@ -3205,7 +3210,7 @@ div#mCSB_1_container{
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  right: -26px;
+  right: 10px;
   z-index: 1;
 }
 
@@ -3215,12 +3220,13 @@ div#mCSB_1_container{
   width: 52px;
   height: 52px;
   line-height: 60px;
-  background: #fff;
-  border: 1px dashed #d8d8d8;
+  background: #F5F5F5;
+  border: 1px solid #E5E5E5;
   border-radius: 50%;
   text-align: center;
   font-size: 24px;
   color: var(--secondary-color);
+  cursor: none;
 }
 
 .working-block-one .link a:hover{
@@ -3233,7 +3239,7 @@ div#mCSB_1_container{
   position: absolute;
   left: 0px;
   top: 0px;
-  border-radius: 50%;
+  border-radius: 20px;
   background: var(--secondary-color);
   width: 100%;
   height: 100%;
@@ -3251,7 +3257,9 @@ div#mCSB_1_container{
 }
 
 .working-block-one .inner-box .overlay-content p{
+  font-size: 15px;
   color: #a8a9b3;
+  line-height: 25px;
 }
 
 .working-section .lower-content p{
@@ -4612,7 +4620,7 @@ div#mCSB_1_container{
   bottom: 26px;
 }
 
-.funfact-section .funfact-block-one:first-child,
+/* .funfact-section .funfact-block-one:first-child,
 .funfact-section .funfact-block-one:last-child{
   top: 60px;
 }
@@ -4620,7 +4628,7 @@ div#mCSB_1_container{
 .funfact-section .funfact-block-one:nth-child(2),
 .funfact-section .funfact-block-one:nth-child(4){
   top: 30px;
-}
+} */
 
 .funfact-section .lower-box{
   position: relative;
@@ -4923,14 +4931,15 @@ div#mCSB_1_container{
 .account-block-two .inner-box .upper-box{
   position: relative;
   display: block;
-  padding: 31px 30px 153px 30px;
+  padding: 30px;
+  border-bottom: 1px solid #E5E5E5;
 }
 
 .account-block-two .inner-box .upper-box h3{
   display: block;
-  font-size: 22px;
+  font-size: 26px;
   line-height: 32px;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 4px;
 }
 
@@ -4943,9 +4952,9 @@ div#mCSB_1_container{
 
 .account-block-two{
   position: relative;
-  max-width: 370px;
+  max-width: 400px;
   margin: 0 auto;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .account-block-two .inner-box .upper-box .shape{
@@ -7430,7 +7439,7 @@ div#mCSB_1_container{
 
 .platform-style-two{
   position: relative;
-  padding: 113px 0px 90px 0px;
+  padding: 60px 0px 0px 0px;
 }
 
 .platform-style-two .image-box{
@@ -7502,7 +7511,7 @@ div#mCSB_1_container{
 }
 
 .platform-style-two .upper-box{
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .platform-style-two .single-item{
@@ -7569,6 +7578,7 @@ div#mCSB_1_container{
 
 .platform-style-two .lower-box{
   position: relative;
+  margin-bottom: 30px;
 }
 
 .platform-style-two .lower-box .shape{
@@ -8719,7 +8729,7 @@ div#mCSB_1_container{
 }
 
 .account-style-two.account-page .account-block-two .recommended-box h6:before{
-  background: -webkit-linear-gradient(-90deg, #fe5924, #fe5924 100%);
+  background: -webkit-linear-gradient(-90deg, #29adf5, #29adf5 100%);
   -webkit-background-clip: text;
 }
 
@@ -10645,7 +10655,7 @@ div#mCSB_1_container{
 .progress-box .bar-inner{
   position:relative;
   display:block;
-  background: -webkit-linear-gradient(0deg, #1b1e31, #fe5924 100%);
+  background: -webkit-linear-gradient(0deg, #1b1e31, #29adf5 100%);
   width:0px;
   height:8px;
   -webkit-transition:all 1500ms ease;
@@ -12437,47 +12447,39 @@ label.error{
   background-repeat: no-repeat;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
 
+.license-strategies {
+  width: 100%;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.10);
+  background-color: #FFF;
+  border-radius: 10px;
+  padding: 50px;
+}
 
+.risk-management .sec-title h2 {
+  text-align: center !important;
+}
 
+.risk-management .risk-box {
+  background-color: rgba(245, 245, 245, 0.5);
+  border: 1px solid #E5E5E5;
+  padding: 25px;
+  border-radius: 5px;
+}
 
+.risk-management .risk-box h2 {
+  position: relative;
+  display: block;
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #000;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.risk-management .risk-box h2 span {
+  color: #29adf5;
+}

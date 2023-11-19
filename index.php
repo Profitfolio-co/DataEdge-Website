@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <title>DataEdge Technologies</title>
+
+  <!-- FAVICON -->
+  <link rel="icon" href="assets/images/dataedge-logo.png" type="image/x-icon" />
+
+  <!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&amp;display=swap" rel="stylesheet" />
+
+  <!-- STYLESHEETS -->
+  <link href="assets/css/font-awesome-all.css" rel="stylesheet" />
+  <link href="assets/css/flaticon.css" rel="stylesheet" />
+  <link href="assets/css/owl.css" rel="stylesheet" />
+  <link href="assets/css/bootstrap.css" rel="stylesheet" />
+  <link href="assets/css/jquery.fancybox.min.css" rel="stylesheet" />
+  <link href="assets/css/animate.css" rel="stylesheet" />
+  <link href="assets/css/nice-select.css" rel="stylesheet" />
+  <link href="assets/css/style.css" rel="stylesheet" />
+  <link href="assets/css/responsive.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="boxed_wrapper">
+    <!-- PRELOADER -->
+    <?php require("./preloader.php") ?>
+
+    <!-- MAIN HEADER -->
+    <?php require("./header.php") ?>
+
+    <!-- BANNER -->
+    <section class="banner-section">
+      <div class="banner-carousel owl-theme owl-carousel nav-style-one">
+        <div class="slide-item">
+          <div class="bg-layer" style="background-image:url(assets/images/banner/banner-1.jpg)"></div>
+          <div class="image-layer" style="background-image:url(assets/images/banner/banner-2.jpg)"></div>
+          <div class="large-container">
+            <div class="content-box">
+              <h2><span>DataEdge</span> <br />Smart Algorithms For Profitable Trading</h2>
+              <p>We are not biased, we Invest and trade based on <span style="color: white;">EVIDENCE</span>. So we are neither <span style="color: white;">LONG nor SHORT</span>. We create a portfolio of stocks and invest in them for long term, we also use this portfolio to trade derivatives <span style="color: white;">TO GENERATE INCOME</span>.</p>
+              <div class="btn-box">
+                <a href="#contact-section" class="theme-btn btn-two" style="color: white;"><span>Contact us now</span></a>
+              </div>
+              <div class="highlights-box">
+                <div class="single-item">
+                  <h3>DATA & ANALYSIS</h3>
+                  <div class="text">Our experience helps us to use this analysis to select trades and manage risk. We put RISK beforE RETURNS, hence generate consistent returns.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT DATAEDGE -->
+    <section class="platform-style-two">
+      <div class="auto-container">
+
+        <!-- ABOUT US -->
+        <div class="upper-box">
+          <div class="row clearfix">
+            <div class="col-lg-6 col-md-12 col-sm-12 image-column">
+              <div class="image-box">
+                <div class="image-shape" style="background-image: url(assets/images/shape/shape-29.png);"></div>
+                <figure class="image"><img src="assets/images/resource/mac-1.png" alt=""></figure>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 content-column">
+              <div class="content-box">
+                <div class="sec-title">
+                  <span class="sub-title">About Us</span>
+                  <h2>What is <span>Dataedge Technologies</span></h2>
+                </div>
+                <div class="text-box">
+                  <p>DataEdge Technologies provides consulting and technology services to automate and enhance trading strategies and performance.
+                  </p>
+                  <p class="mt-2">We believe data and technology when used effectively is a huge lever to enhance investment and trading performance, they also help us to achieve a more effective and proactive risk management. Most importantly Data & Technology help us to define redlines within the strategies and thus reducing the effect of bias/emotions in trade. Finally new paradigms in tech help us to keep getting better by using better tools and analysis.
+                  </p>
+                  <p class="mt-2">We have been Investing and trading for over two decades, we have experience in development of technology. This powerful combination has worked for us and now we hope to help others.</p>
+                  <p class="mt-2">Please get in touch with us :- <a href='mailto:namaste@dataedgetecnologies.co' style="color: #29adf5;">namaste@dataedgetechnologies.co</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SERVICES -->
+        <div class="lower-box">
+          <div class="shape" style="background-image: url(assets/images/shape/shape-30.png);"></div>
+          <div class="row justify-content-center clearfix">
+            <!-- SERVICE 1 -->
+            <div class="col-lg-4 col-md-6 col-sm-12 single-column">
+              <div class="single-item">
+                <div class="static-content">
+                  <h4><img src="assets/images/icons/icon-54.png" alt="">Algo strategy development</h4>
+                </div>
+                <div class="overlay-content">
+                  <p>Assess client goals, tailor algorithms for trading objectives, risk tolerance.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- SERVICE 2 -->
+            <div class="col-lg-4 col-md-6 col-sm-12 single-column">
+              <div class="single-item">
+                <div class="static-content">
+                  <h4><img src="assets/images/icons/icon-54.png" alt="">Backtesting and optimization</h4>
+                </div>
+                <div class="overlay-content">
+                  <p>Backtest and optimize clients' algo trading strategies using historical market data.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- SERVICE 3 -->
+            <div class="col-lg-4 col-md-6 col-sm-12 single-column">
+              <div class="single-item">
+                <div class="static-content">
+                  <h4><img src="assets/images/icons/icon-54.png" alt="">Implementation and integration</h4>
+                </div>
+                <div class="overlay-content">
+                  <p>Aid clients in integrating algo trading strategies into their trading setup.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- SERVICE 4 -->
+            <div class="col-lg-4 col-md-6 col-sm-12 single-column">
+              <div class="single-item">
+                <div class="static-content">
+                  <h4><img src="assets/images/icons/icon-54.png" alt="">Monitoring and Reporting</h4>
+                </div>
+                <div class="overlay-content">
+                  <p>Track algo trading strategy performance, offer clients regular performance reports.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- SERVICE 5 -->
+            <div class="col-lg-4 col-md-6 col-sm-12 single-column">
+              <div class="single-item">
+                <div class="static-content">
+                  <h4><img src="assets/images/icons/icon-54.png" alt="">Risk Management</h4>
+                </div>
+                <div class="overlay-content">
+                  <p>Aid clients in recognizing and mitigating risks linked to algo trading.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY DATAEDGE -->
+    <section class="trading-section sec-pad">
+      <div class="pattern-layer">
+        <div class="pattern-1" style="background-image: url(assets/images/shape/shape-1.png);"></div>
+        <div class="pattern-2" style="background-image: url(assets/images/shape/shape-2.png);"></div>
+      </div>
+      <div class="auto-container">
+        <div class="sec-title centred light">
+          <h2>Why Use <span>Our Strategies</span></h2>
+          <span class="sub-title" style="text-transform: none;">These strategies have an advantage: they enable more cash allocation when valuations are high and offer cash when valuations are low.</span>
+        </div>
+        <div class="row clearfix">
+          <!-- POINT ONE -->
+          <div class="col-lg-6 col-md-6 col-sm-12 trading-block">
+            <div class="trading-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+              <div class="inner-box">
+                <div class="text">
+                  <h3>INVESTMENT</h3>
+                  <p>Powerful stock recommendation engine with Quarterly review.</p>
+                  <p class="mt-2">Portfolio creation tool based on investor requirements/input</p>
+                  <p class="mt-2">Portfolio can be - ETF based, LargeCap or MultiCap</p>
+                  <p class="mt-2">Debt and Gold Allocation based on Investor input and Event driven trades and review of portfolio</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- POINT ONE -->
+          <div class="col-lg-6 col-md-6 col-sm-12 trading-block">
+            <div class="trading-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+              <div class="inner-box">
+                <div class="text">
+                  <h3>TRADE</h3>
+                  <p>Multiple uncorrelated strategies with different time horizons and direction to optimise RISK/RETURN tradeof.</p>
+                  <p class="mt-2">Ability to run upto FIVE strategies at a time</p>
+                  <p class="mt-2">The idea is to generate a return on the holding by participating in MARKET DIRECTION and GAPS</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OUR STRATEGIES -->
+    <section class="account-style-two sec-pad">
+      <div class="auto-container">
+        <div class="sec-title centred">
+          <h2>DataEdge Technologies <span>Strategies</span></h2>
+          <span class="sub-title">Allocation between strategies is decided based on investor input and risk profile.</span>
+        </div>
+        <div class="row clearfix">
+          <div class="col-lg-4 col-md-6 col-sm-12 account-block">
+            <div class="account-block-two wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+              <div class="inner-box">
+                <div class="upper-box centred">
+                  <h3>VRIDDHI</h3>
+                  <p>Trend Following</p>
+                </div>
+                <div class="content-box">
+                  <ul class="list-item clearfix">
+                    <li>Profit from directional movement in market either way</li>
+                    <li>Futures based</li>
+                    <li>NIFTY/BNKNIFTY/SENSEX</li>
+                  </ul>
+                </div>
+                <div class="lower-box" style="display: block;">
+                  <div class="link-box"><a href="#contact-section" style="width: 100%; text-align: center"><span>Contact us now</span></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 account-block">
+            <div class="account-block-two wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+              <div class="inner-box">
+                <div class="upper-box centred">
+                  <h3>GULLAK</h3>
+                  <p>Intraday</p>
+                </div>
+                <div class="content-box">
+                  <ul class="list-item clearfix">
+                    <li>Profit from decay in option price and price movement.</li>
+                    <li>Options based</li>
+                    <li>NIFTY/BNKNIFTY/FINNIFTY</li>
+                  </ul>
+                </div>
+                <div class="lower-box" style="display: block;">
+                  <div class="link-box"><a href="#contact-section" style="width: 100%; text-align: center"><span>Contact us now</span></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 account-block">
+            <div class="account-block-two wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+              <div class="inner-box">
+                <div class="upper-box centred">
+                  <h3>PAIR/EVENT</h3>
+                  <p>Pair/Event</p>
+                </div>
+                <div class="content-box">
+                  <ul class="list-item clearfix">
+                    <li>Profit from misallocation of prices in some stocks and specific events</li>
+                    <li>Futures based</li>
+                    <li>NSE, F&O, Stocks</li>
+                  </ul>
+                </div>
+                <div class="lower-box" style="display: block;">
+                  <div class="link-box"><a href="#contact-section" style="width: 100%; text-align: center"><span>Contact us now</span></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RISK MANAGEMENT -->
+    <section class="risk-management sec-pad">
+      <div class="auto-container">
+        <div class="sec-title">
+          <h2><span>Risk</span> Management</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="risk-box">
+              <h2>Setup <span>Trade Strategy</span></h2>
+              <p>Risk management built into strategy selection. Trades considered on basis of Liquidity and volatility.</p>
+              <p class="mt-2">Select trades which neutralise/manage - DELTA, VEGA AND GAMMA</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="risk-box">
+              <h2>Active <span>Hedging</span></h2>
+              <p>Algos are designed to hedge in direction of the market movement to manage risk.</p>
+              <p class="mt-2">Constant analysis of risk reward ratios to manage risk-return trade off</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="risk-box">
+              <h2><span>Systems</span></h2>
+              <p>RMS system to monitor all positions and generate pro-active alerts.</p>
+              <p class="mt-2">Order Management System developed to override Algos if required.</p>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- STRATEGIES -->
+    <section class="trading-section sec-pad">
+      <div class="pattern-layer">
+        <div class="pattern-1" style="background-image: url(assets/images/shape/shape-1.png);"></div>
+        <div class="pattern-2" style="background-image: url(assets/images/shape/shape-2.png);"></div>
+      </div>
+      <div class="auto-container">
+        <div class="sec-title centred light">
+          <h2>Licensing Our <span>Algorithmic Trading</span> Strategies</h2>
+          <span class="sub-title" style="text-transform: none;">You can access our proven algorithmic trading strategies for your trading activities. Our strategies have been meticulously developed and tested to help you achieve your financial goals in the dynamic world of capital markets.</span>
+        </div>
+        <div class="row clearfix">
+          <!-- POINT ONE -->
+          <div class="col-lg-3 col-md-6 col-sm-12 trading-block">
+            <div class="trading-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+              <div class="inner-box">
+                <div class="text">
+                  <h3>Proven Performance</h3>
+                  <p>Our algorithms have a track record of delivering consistent as well as competitive returns in various market conditions.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- POINT ONE -->
+          <div class="col-lg-3 col-md-6 col-sm-12 trading-block">
+            <div class="trading-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+              <div class="inner-box">
+                <div class="text">
+                  <h3>Expertise</h3>
+                  <p>Our team of experts specializes in algorithmic trading and the Indian capital markets. You can leverage our expertise for your benefits.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- POINT THREE -->
+          <div class="col-lg-3 col-md-6 col-sm-12 trading-block">
+            <div class="trading-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+              <div class="inner-box">
+                <div class="text">
+                  <h3>Risk Management</h3>
+                  <p>We prioritize risk management and capital preservation in strategies, helping you minimize potential losses effectively.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- POINT FOUR -->
+          <div class="col-lg-3 col-md-6 col-sm-12 trading-block">
+            <div class="trading-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+              <div class="inner-box">
+                <div class="text">
+                  <h3>Customization</h3>
+                  <p>We offer flexibility in licensing our strategies to suit your specific trading objectives, risk tolerance, and investment horizons.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="working-section sec-pad centred">
+      <div class="auto-container">
+        <div class="sec-title">
+          <span class="sub-title">How it works</span>
+          <h2><span>Start Trading</span> in just four steps</h2>
+        </div>
+        <div class="content-inner clearfix">
+
+          <!-- STEP ONE -->
+          <div class="working-block-one">
+            <div class="inner-box">
+              <div class="static-content">
+                <div class="icon-box"><img src="assets/images/selection.png" style="width: 60px; height: auto" alt=""></div>
+                <h4>Strategy Selection</h4>
+                <p>Portfolio of trading strategies</p>
+              </div>
+              <div class="overlay-content">
+                <h4>Strategy Selection</h4>
+                <p>Browse through our portfolio of algorithmic trading strategies and select the one(s) that align with your goals.</p>
+              </div>
+              <span class="count-text">Step 01</span>
+            </div>
+            <div class="link"><a><i class="flaticon-right-arrow"></i></a></div>
+          </div>
+
+          <!-- STEP TWO -->
+          <div class="working-block-one">
+            <div class="inner-box">
+              <div class="static-content">
+                <div class="icon-box"><img src="assets/images/licensing.png" style="width: 60px; height: auto" alt=""></div>
+                <h4>Licensing Agreement</h4>
+                <p>Discussion of licensing terms</p>
+              </div>
+              <div class="overlay-content">
+                <h4>Licensing Agreement</h4>
+                <p>Contact us to discuss licensing terms, including duration, fees, and any customization requirements.</p>
+              </div>
+              <span class="count-text">Step 02</span>
+            </div>
+            <div class="link"><a><i class="flaticon-right-arrow"></i></a></div>
+          </div>
+
+          <!-- STEP THREE -->
+          <div class="working-block-one">
+            <div class="inner-box">
+              <div class="static-content">
+                <div class="icon-box"><img src="assets/images/integration.png" style="width: 60px; height: auto" alt=""></div>
+                <h4>Strategy Integration</h4>
+                <p>Effective strategy integration</p>
+              </div>
+              <div class="overlay-content">
+                <h4>Strategy Integration</h4>
+                <p>Upon agreement, our team will assist you in integrating the licensed strategy into your trading platform.</p>
+              </div>
+              <span class="count-text">Step 03</span>
+            </div>
+            <div class="link"><a><i class="flaticon-right-arrow"></i></a></div>
+          </div>
+
+          <!-- STEP FOUR -->
+          <div class="working-block-one">
+            <div class="inner-box">
+              <div class="static-content">
+                <div class="icon-box"><img src="assets/images/support.png" style="width: 60px; height: auto" alt=""></div>
+                <h4>Monitoring & Support</h4>
+                <p>Regular strategy monitoring</p>
+              </div>
+              <div class="overlay-content">
+                <h4>Monitoring & Support</h4>
+                <p>We provide ongoing support, monitoring, and regular updates to ensure your strategy remains effective.</p>
+              </div>
+              <span class="count-text">Step 04</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-section sec-pad centred" id="contact-section">
+      <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-33.png);"></div>
+      <div class="auto-container">
+        <div class="sec-title light">
+          <h2>Get <span>Started</span> Today</h2>
+          <span class="sub-title">Take The First Step Towards Optimizing Your Trading By Licensing Our Algorithmic Strategies.<br />Contact Us To Learn More About Our Available Strategies, Licensing Terms.</span>
+        </div>
+        <form method="post" id="contact-form">
+          <div class="row clearfix">
+            <div class="col-lg-6 col-md-6 col-sm-12 left-column">
+              <div class="left-content">
+                <div class="form-group">
+                  <input type="text" name="username" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                  <input type="email" name="email" placeholder="Email Address" required>
+                </div>
+                <div class="form-group">
+                  <input type="text" name="phone" placeholder="Phone" required>
+                </div>
+                <div class="form-group">
+                  <input type="text" name="subject" placeholder="Subject" required>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 right-column">
+              <div class="right-content">
+                <div class="form-group">
+                  <textarea name="message" placeholder="Write Your Message Here..."></textarea>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="message-btn">
+            <button type="submit" class="theme-btn" name="submit-form"><span>Send Now</span></button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <?php require("./footer.php") ?>
+
+    <!-- SCROLL TO TOP -->
+    <button class="scroll-top scroll-to-target" data-target="html">
+      <i class="flaticon-up-arrow"></i>
+    </button>
+  </div>
+
+  <!-- JAVASCRIPT -->
+  <script src="assets/js/jquery.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/owl.js"></script>
+  <script src="assets/js/wow.js"></script>
+  <script src="assets/js/validation.js"></script>
+  <script src="assets/js/jquery.fancybox.js"></script>
+  <script src="assets/js/appear.js"></script>
+  <script src="assets/js/scrollbar.js"></script>
+  <script src="assets/js/isotope.js"></script>
+  <script src="assets/js/jquery.nice-select.min.js"></script>
+
+  <!-- MAIN JAVASCRIPT -->
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>

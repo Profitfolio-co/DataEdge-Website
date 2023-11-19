@@ -1053,6 +1053,7 @@
 
   .main-header .outer-box{
     padding: 0px 30px;
+    justify-content: center;
   }
 
   .main-header .menu-right-content .search-box-outer{
